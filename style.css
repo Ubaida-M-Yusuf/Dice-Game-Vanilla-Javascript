@@ -171,7 +171,27 @@ main {
 
   display:  none;
 }
+@media (max-width: 810px) { 
+  html {
+    font-size: 60%;
+    text-align: center;
+    box-sizing: unset;
+  }
+  .btn--roll {
+    top: 36.3rem;
+  }
+  .btn--hold {
+    top: 43.1rem;
+  }
 
+main {
+  transform: rotate(90deg);
+  overflow: visible;
+  flex-shrink: 0;
+  height: 50rem;
+}
+
+ }
 
 @media (max-width: 576px) { 
   html {
@@ -194,3 +214,5 @@ main {
 }
 
  }
+
+
