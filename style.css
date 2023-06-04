@@ -171,7 +171,7 @@ main {
 
   display:  none;
 }
-@media (max-width: 810px) { 
+@media screen and (max-width: 810px) and (orientation: portrait)  { 
   html {
     font-size: 60%;
     text-align: center;
@@ -193,7 +193,7 @@ main {
 
  }
 
-@media (max-width: 576px) { 
+ @media screen and (max-width: 576px) and (orientation: portrait)  { 
   html {
     font-size: 40%;
     text-align: center;
@@ -211,6 +211,31 @@ main {
   overflow: visible;
   flex-shrink: 0;
   height: 50rem;
+}
+
+ }
+
+
+ 
+
+ @media screen and (max-width: 854px) and (orientation: landscape)  { 
+  html {
+    font-size: 30%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .btn--roll {
+    top: 39.3rem;
+  }
+  .btn--hold {
+    top: 48.1rem;
+  }
+
+main {
+  overflow: visible;
+  flex-shrink: 0;
+  height: 70rem;
+  width:150rem ;
 }
 
  }
